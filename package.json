@@ -8,7 +8,8 @@
     "start": "nodemon app.js",
     "pm2": "pm2 start app.js",
     "pm2-logs": "pm2 logs",
-    "pm2-stop": "pm2 stop app"
+    "pm2-stop": "pm2 stop app",
+    "ls": "pm2 ls"
   },
   "keywords": [],
   "author": "",

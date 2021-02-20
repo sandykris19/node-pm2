@@ -30,7 +30,7 @@ const isPrime = (input) => {
   let endTime = new Date();
   let isprime = true;
   for (let i = 2; i < input; i++) {
-    console.log(i);
+    // console.log(i);
     if (input % i === 0) {
       console.log("in the primeno");
       isprime = false;
