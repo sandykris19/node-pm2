@@ -43,7 +43,7 @@ const isPrime = (input) => {
 };
 
 //test = 2478373
-
-app.listen(process.env.PORT || 4000, () => {
-  console.log("Listening at port 4000");
+let PORT = process.env.PORT || 4000;
+app.listen(PORT, () => {
+  console.log(`Lisenting at port ${PORT}`);
 });
